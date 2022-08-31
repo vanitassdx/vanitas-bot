@@ -1,0 +1,21 @@
+{
+  "name": "vanitasx_d-Bots",
+  "description": "bot ",
+  "repository": "https://github.com/arivpns/arivpns",
+  "logo": "https://instagram.com/vanitasx_d",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/fewerandfaster/heroku-buildpack-imagemagick.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}
